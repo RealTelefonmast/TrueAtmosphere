@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<TAE.AtmosphericValueDef>
+		<defName>Air_Oxygen</defName>
+		<label>oxygen</label>
+		<labelShort>O2</labelShort>
+		<collectionDef>Atmosphere_Air</collectionDef>
+		<atmosphericTag>Air</atmosphericTag>
+		<networkValue>Network_Oxygen</networkValue>
+		<valueColor>(140, 230, 255)</valueColor>
+		<useRenderLayer>false</useRenderLayer>
+	</TAE.AtmosphericValueDef>
+
+	<TAE.AtmosphericValueDef>
+		<defName>Air_Nitrogen</defName>
+		<label>Nitrogen</label>
+		<labelShort>N2</labelShort>
+		<collectionDef>Atmosphere_Air</collectionDef>
+		<atmosphericTag>Air</atmosphericTag>
+		<networkValue>Network_Nitrogen</networkValue>
+		<valueColor>(0, 0, 204)</valueColor>
+		<useRenderLayer>false</useRenderLayer>
+	</TAE.AtmosphericValueDef>
+
+	<TAE.AtmosphericValueDef>
+		<defName>Air_CarbonDioxide</defName>
+		<label>carbon dioxide</label>
+		<labelShort>CO2</labelShort>
+		<collectionDef>Atmosphere_Air</collectionDef>
+		<atmosphericTag>Air</atmosphericTag>
+		<networkValue>Network_CarbonDioxide</networkValue>
+		<valueColor>(128, 0, 128)</valueColor>
+		<useRenderLayer>false</useRenderLayer>
+	</TAE.AtmosphericValueDef>
+
+	<TAE.AtmosphericValueDef>
+		<defName>Air_Argon</defName>
+		<label>Argon</label>
+		<labelShort>Ar</labelShort>
+		<collectionDef>Atmosphere_Air</collectionDef>
+		<atmosphericTag>Air</atmosphericTag>
+		<networkValue>Network_Argon</networkValue>
+		<valueColor>(224, 176, 255)</valueColor>
+		<useRenderLayer>false</useRenderLayer>
+	</TAE.AtmosphericValueDef>
+
+	<TAE.AtmosphericValueDef>
+		<defName>Air_Neon</defName>
+		<label>Neon</label>
+		<labelShort>Ne</labelShort>
+		<collectionDef>Atmosphere_Air</collectionDef>
+		<atmosphericTag>Air</atmosphericTag>
+		<networkValue>Network_Neon</networkValue>
+		<valueColor>(255, 79, 0)</valueColor>
+		<useRenderLayer>false</useRenderLayer>
+	</TAE.AtmosphericValueDef>
+
+	<TAE.AtmosphericValueDef>
+		<defName>Air_Helium</defName>
+		<label>Helium</label>
+		<labelShort>He</labelShort>
+		<collectionDef>Atmosphere_Air</collectionDef>
+		<atmosphericTag>Air</atmosphericTag>
+		<networkValue>Network_Helium</networkValue>
+		<valueColor>(255, 255, 0)</valueColor>
+		<useRenderLayer>false</useRenderLayer>
+	</TAE.AtmosphericValueDef>
+
+	<TAE.AtmosphericValueDef>
+		<defName>Air_Methane</defName>
+		<label>Methane</label>
+		<labelShort>CH4</labelShort>
+		<collectionDef>Atmosphere_Air</collectionDef>
+		<atmosphericTag>Air</atmosphericTag>
+		<networkValue>Network_Methane</networkValue>
+		<valueColor>(0, 255, 255)</valueColor>
+		<useRenderLayer>false</useRenderLayer>
+	</TAE.AtmosphericValueDef>
+	  
+	<TeleCore.FlowValueCollectionDef>
+		<defName>Atmosphere_Air</defName>
+		<label>air</label>
+	</TeleCore.FlowValueCollectionDef>
+
+	<TAE.TAERulesetDef>
+		<defName>Atmosphere_Earthlike</defName>
+		<realm>AnyBiome</realm>
+		<atmospheres>
+			<Air_Nitrogen>0.78</Air_Nitrogen>
+			<Air_Oxygen>0.21</Air_Oxygen>
+			<Air_CarbonDioxide>0.0004</Air_CarbonDioxide>
+			<Air_Argon>0.0093</Air_Argon>
+			<Air_Neon>0.000018</Air_Neon>
+			<Air_Helium>0.000005</Air_Helium>
+			<Air_Methane>0.0000017</Air_Methane>
+		</atmospheres>
+	</TAE.TAERulesetDef>
+	
+</Defs>
